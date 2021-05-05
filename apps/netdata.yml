@@ -15,7 +15,7 @@
         pgrole: 'netdata'
         intport: '19999'
         extport: '19999'
-        image: 'netdata/netdata'
+        image: 'netdata/netdata:latest'
 
     # CORE (MANDATORY) ############################################################
     - name: 'Including cron job'
