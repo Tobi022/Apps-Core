@@ -13,10 +13,10 @@
 
     - name: 'Set Known Facts'
       set_fact:
-        pgrole: 'radarr4k'
+        pgrole: 'radarrde'
         intport: '7878'
         extport: '7874'
-        image: 'linuxserver/radarr:nightly'
+        image: 'linuxserver/radarr:latest'
 
     # CORE (MANDATORY) ############################################################
     - name: 'Including cron job'
